@@ -9,3 +9,9 @@ gem 'reel'
 gem 'http'
 gem 'webrick'
 gem 'falcon'
+
+gem "pg" # postgreSQL
+gem "activerecord" # the ORM
+gem "sinatra-activerecord" # so it works with Sinatra
+gem "rake" # to run scripts ??
+gem "bcrypt" # password encryption
