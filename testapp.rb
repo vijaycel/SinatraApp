@@ -1,3 +1,9 @@
+#this file is only required when we have small application and all codes are added in a single file
+#ruby testapp.rb command will start the application
+
+#since we are going to code in multiple files we are using config.ru
+#rackup -p 1234 command will start the application using config.ru settings
+
 require "sinatra"
 
 get "/" do
